@@ -1,0 +1,1232 @@
+{
+  "Name": "MigrationDemo_Assessment",
+  "Databases": [
+    {
+      "Status": "Completed",
+      "AssessmentRecommendations": [
+        {
+          "CompatibilityLevel": "CompatLevel110",
+          "Category": "Compatibility",
+          "Severity": "Error",
+          "ChangeCategory": "BreakingChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00001",
+          "Title": "Syntax issue on the source server",
+          "Impact": "While parsing the schema on the source database, one or more syntax issues were found. Syntax issues on the source database indicate that some objects contain unsupported syntax due to which all assessment rules were not run on the object.",
+          "Recommendation": "Review the list of objects and issues reported, fix the syntax errors, and re-run assessment before migrating this database.",
+          "MoreInfo": "",
+          "ImpactedObjects": [
+            {
+              "Name": "[dbo].[Rpt_MonthlySales_Old]",
+              "ObjectType": "Object",
+              "ImpactDetail": "Object [dbo].[Rpt_MonthlySales_Old] has syntax errors. The column name is not valid. No table name was specified.. Error number 46016. For more details, please see: Line 88, Column 10.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "[dbo].[Inv_StockAdjustment]",
+              "ObjectType": "Object",
+              "ImpactDetail": "Object [dbo].[Inv_StockAdjustment] has syntax errors. Incorrect syntax near 'Set'.. Error number 46010. For more details, please see: Line 64, Column 2.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel120",
+          "Category": "Compatibility",
+          "Severity": "Error",
+          "ChangeCategory": "BreakingChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00001",
+          "Title": "Syntax issue on the source server",
+          "Impact": "While parsing the schema on the source database, one or more syntax issues were found. Syntax issues on the source database indicate that some objects contain unsupported syntax due to which all assessment rules were not run on the object.",
+          "Recommendation": "Review the list of objects and issues reported, fix the syntax errors, and re-run assessment before migrating this database.",
+          "MoreInfo": "",
+          "ImpactedObjects": [
+            {
+              "Name": "[dbo].[Rpt_MonthlySales_Old]",
+              "ObjectType": "Object",
+              "ImpactDetail": "Object [dbo].[Rpt_MonthlySales_Old] has syntax errors. The column name is not valid. No table name was specified.. Error number 46016. For more details, please see: Line 88, Column 10.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "[dbo].[Inv_StockAdjustment]",
+              "ObjectType": "Object",
+              "ImpactDetail": "Object [dbo].[Inv_StockAdjustment] has syntax errors. Incorrect syntax near 'Set'.. Error number 46010. For more details, please see: Line 64, Column 2.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel130",
+          "Category": "Compatibility",
+          "Severity": "Error",
+          "ChangeCategory": "BreakingChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00001",
+          "Title": "Syntax issue on the source server",
+          "Impact": "While parsing the schema on the source database, one or more syntax issues were found. Syntax issues on the source database indicate that some objects contain unsupported syntax due to which all assessment rules were not run on the object.",
+          "Recommendation": "Review the list of objects and issues reported, fix the syntax errors, and re-run assessment before migrating this database.",
+          "MoreInfo": "",
+          "ImpactedObjects": [
+            {
+              "Name": "[dbo].[Rpt_MonthlySales_Old]",
+              "ObjectType": "Object",
+              "ImpactDetail": "Object [dbo].[Rpt_MonthlySales_Old] has syntax errors. The column name is not valid. No table name was specified.. Error number 46016. For more details, please see: Line 88, Column 10.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "[dbo].[Inv_StockAdjustment]",
+              "ObjectType": "Object",
+              "ImpactDetail": "Object [dbo].[Inv_StockAdjustment] has syntax errors. Incorrect syntax near 'Set'.. Error number 46010. For more details, please see: Line 64, Column 2.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel140",
+          "Category": "Compatibility",
+          "Severity": "Error",
+          "ChangeCategory": "BreakingChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00001",
+          "Title": "Syntax issue on the source server",
+          "Impact": "While parsing the schema on the source database, one or more syntax issues were found. Syntax issues on the source database indicate that some objects contain unsupported syntax due to which all assessment rules were not run on the object.",
+          "Recommendation": "Review the list of objects and issues reported, fix the syntax errors, and re-run assessment before migrating this database.",
+          "MoreInfo": "",
+          "ImpactedObjects": [
+            {
+              "Name": "[dbo].[Rpt_MonthlySales_Old]",
+              "ObjectType": "Object",
+              "ImpactDetail": "Object [dbo].[Rpt_MonthlySales_Old] has syntax errors. The column name is not valid. No table name was specified.. Error number 46016. For more details, please see: Line 88, Column 10.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "[dbo].[Inv_StockAdjustment]",
+              "ObjectType": "Object",
+              "ImpactDetail": "Object [dbo].[Inv_StockAdjustment] has syntax errors. Incorrect syntax near 'Set'.. Error number 46010. For more details, please see: Line 64, Column 2.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel150",
+          "Category": "Compatibility",
+          "Severity": "Error",
+          "ChangeCategory": "BreakingChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00001",
+          "Title": "Syntax issue on the source server",
+          "Impact": "While parsing the schema on the source database, one or more syntax issues were found. Syntax issues on the source database indicate that some objects contain unsupported syntax due to which all assessment rules were not run on the object.",
+          "Recommendation": "Review the list of objects and issues reported, fix the syntax errors, and re-run assessment before migrating this database.",
+          "MoreInfo": "",
+          "ImpactedObjects": [
+            {
+              "Name": "[dbo].[Rpt_MonthlySales_Old]",
+              "ObjectType": "Object",
+              "ImpactDetail": "Object [dbo].[Rpt_MonthlySales_Old] has syntax errors. The column name is not valid. No table name was specified.. Error number 46016. For more details, please see: Line 88, Column 10.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "[dbo].[Inv_StockAdjustment]",
+              "ObjectType": "Object",
+              "ImpactDetail": "Object [dbo].[Inv_StockAdjustment] has syntax errors. Incorrect syntax near 'Set'.. Error number 46010. For more details, please see: Line 64, Column 2.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel160",
+          "Category": "Compatibility",
+          "Severity": "Error",
+          "ChangeCategory": "BreakingChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00001",
+          "Title": "Syntax issue on the source server",
+          "Impact": "While parsing the schema on the source database, one or more syntax issues were found. Syntax issues on the source database indicate that some objects contain unsupported syntax due to which all assessment rules were not run on the object.",
+          "Recommendation": "Review the list of objects and issues reported, fix the syntax errors, and re-run assessment before migrating this database.",
+          "MoreInfo": "",
+          "ImpactedObjects": [
+            {
+              "Name": "[dbo].[Rpt_MonthlySales_Old]",
+              "ObjectType": "Object",
+              "ImpactDetail": "Object [dbo].[Rpt_MonthlySales_Old] has syntax errors. The column name is not valid. No table name was specified.. Error number 46016. For more details, please see: Line 88, Column 10.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "[dbo].[Inv_StockAdjustment]",
+              "ObjectType": "Object",
+              "ImpactDetail": "Object [dbo].[Inv_StockAdjustment] has syntax errors. Incorrect syntax near 'Set'.. Error number 46010. For more details, please see: Line 64, Column 2.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel170",
+          "Category": "Compatibility",
+          "Severity": "Error",
+          "ChangeCategory": "BreakingChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00001",
+          "Title": "Syntax issue on the source server",
+          "Impact": "While parsing the schema on the source database, one or more syntax issues were found. Syntax issues on the source database indicate that some objects contain unsupported syntax due to which all assessment rules were not run on the object.",
+          "Recommendation": "Review the list of objects and issues reported, fix the syntax errors, and re-run assessment before migrating this database.",
+          "MoreInfo": "",
+          "ImpactedObjects": [
+            {
+              "Name": "[dbo].[Rpt_MonthlySales_Old]",
+              "ObjectType": "Object",
+              "ImpactDetail": "Object [dbo].[Rpt_MonthlySales_Old] has syntax errors. The column name is not valid. No table name was specified.. Error number 46016. For more details, please see: Line 88, Column 10.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "[dbo].[Inv_StockAdjustment]",
+              "ObjectType": "Object",
+              "ImpactDetail": "Object [dbo].[Inv_StockAdjustment] has syntax errors. Incorrect syntax near 'Set'.. Error number 46010. For more details, please see: Line 64, Column 2.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel110",
+          "Category": "Compatibility",
+          "Severity": "Information",
+          "ChangeCategory": "BehaviorChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00333",
+          "Title": "Unqualified Join(s) detected",
+          "Impact": "Starting with database compatibility level 90 and higher, in rare occasions, the 'unqualified join' syntax can cause 'missing join predicate' warnings, leading to long running queries.",
+          "Recommendation": "An example of \"Unqualified join\" is\n \nselect * from table1, table2\nwhere table1.col1 = table2.col1\n\n Use  explicit JOIN syntax in all cases. SQL Server supports the below explicit joins:\n - LEFT OUTER JOIN or LEFT JOIN\n- RIGHT OUTER JOIN or RIGHT JOIN\n- FULL OUTER JOIN or FULL JOIN\n- INNER JOIN",
+          "MoreInfo": "- Missing join Predicate Event Class (https://go.microsoft.com/fwlink/?LinkId=798567)\n- Deprecation of \"Old Style\" JOIN Syntax: Only A Partial Thing (https://go.microsoft.com/fwlink/?LinkId=798568)\n- DOC : Please strive to use ANSI-style joins instead of deprecated syntax  (https://go.microsoft.com/fwlink/?LinkId=798569)\n- Missing join predicate icon should be red (https://go.microsoft.com/fwlink/?LinkId=798570)",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_GetCustomerOrders",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_GetCustomerOrders] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 42, Column 4.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_GetOrderItemDetails",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_GetOrderItemDetails] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 37, Column 4.\n Object [dbo].[usp_GetOrderItemDetails] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 71, Column 4.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_ProductInventory_Report",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_ProductInventory_Report] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 55, Column 4.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_Invoice_Edit",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_Invoice_Edit] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 29, Column 4.\n Object [dbo].[usp_Invoice_Edit] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 83, Column 4.\n Object [dbo].[usp_Invoice_Edit] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 112, Column 4.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel120",
+          "Category": "Compatibility",
+          "Severity": "Information",
+          "ChangeCategory": "BehaviorChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00333",
+          "Title": "Unqualified Join(s) detected",
+          "Impact": "Starting with database compatibility level 90 and higher, in rare occasions, the 'unqualified join' syntax can cause 'missing join predicate' warnings, leading to long running queries.",
+          "Recommendation": "An example of \"Unqualified join\" is\n \nselect * from table1, table2\nwhere table1.col1 = table2.col1\n\n Use  explicit JOIN syntax in all cases. SQL Server supports the below explicit joins:\n - LEFT OUTER JOIN or LEFT JOIN\n- RIGHT OUTER JOIN or RIGHT JOIN\n- FULL OUTER JOIN or FULL JOIN\n- INNER JOIN",
+          "MoreInfo": "- Missing join Predicate Event Class (https://go.microsoft.com/fwlink/?LinkId=798567)\n- Deprecation of \"Old Style\" JOIN Syntax: Only A Partial Thing (https://go.microsoft.com/fwlink/?LinkId=798568)\n- DOC : Please strive to use ANSI-style joins instead of deprecated syntax  (https://go.microsoft.com/fwlink/?LinkId=798569)\n- Missing join predicate icon should be red (https://go.microsoft.com/fwlink/?LinkId=798570)",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_GetCustomerOrders",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_GetCustomerOrders] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 42, Column 4.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_GetOrderItemDetails",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_GetOrderItemDetails] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 37, Column 4.\n Object [dbo].[usp_GetOrderItemDetails] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 71, Column 4.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_ProductInventory_Report",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_ProductInventory_Report] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 55, Column 4.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_Invoice_Edit",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_Invoice_Edit] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 29, Column 4.\n Object [dbo].[usp_Invoice_Edit] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 83, Column 4.\n Object [dbo].[usp_Invoice_Edit] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 112, Column 4.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel130",
+          "Category": "Compatibility",
+          "Severity": "Information",
+          "ChangeCategory": "BehaviorChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00333",
+          "Title": "Unqualified Join(s) detected",
+          "Impact": "Starting with database compatibility level 90 and higher, in rare occasions, the 'unqualified join' syntax can cause 'missing join predicate' warnings, leading to long running queries.",
+          "Recommendation": "An example of \"Unqualified join\" is\n \nselect * from table1, table2\nwhere table1.col1 = table2.col1\n\n Use  explicit JOIN syntax in all cases. SQL Server supports the below explicit joins:\n - LEFT OUTER JOIN or LEFT JOIN\n- RIGHT OUTER JOIN or RIGHT JOIN\n- FULL OUTER JOIN or FULL JOIN\n- INNER JOIN",
+          "MoreInfo": "- Missing join Predicate Event Class (https://go.microsoft.com/fwlink/?LinkId=798567)\n- Deprecation of \"Old Style\" JOIN Syntax: Only A Partial Thing (https://go.microsoft.com/fwlink/?LinkId=798568)\n- DOC : Please strive to use ANSI-style joins instead of deprecated syntax  (https://go.microsoft.com/fwlink/?LinkId=798569)\n- Missing join predicate icon should be red (https://go.microsoft.com/fwlink/?LinkId=798570)",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_GetCustomerOrders",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_GetCustomerOrders] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 42, Column 4.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_GetOrderItemDetails",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_GetOrderItemDetails] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 37, Column 4.\n Object [dbo].[usp_GetOrderItemDetails] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 71, Column 4.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_ProductInventory_Report",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_ProductInventory_Report] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 55, Column 4.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_Invoice_Edit",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_Invoice_Edit] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 29, Column 4.\n Object [dbo].[usp_Invoice_Edit] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 83, Column 4.\n Object [dbo].[usp_Invoice_Edit] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 112, Column 4.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel140",
+          "Category": "Compatibility",
+          "Severity": "Information",
+          "ChangeCategory": "BehaviorChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00333",
+          "Title": "Unqualified Join(s) detected",
+          "Impact": "Starting with database compatibility level 90 and higher, in rare occasions, the 'unqualified join' syntax can cause 'missing join predicate' warnings, leading to long running queries.",
+          "Recommendation": "An example of \"Unqualified join\" is\n \nselect * from table1, table2\nwhere table1.col1 = table2.col1\n\n Use  explicit JOIN syntax in all cases. SQL Server supports the below explicit joins:\n - LEFT OUTER JOIN or LEFT JOIN\n- RIGHT OUTER JOIN or RIGHT JOIN\n- FULL OUTER JOIN or FULL JOIN\n- INNER JOIN",
+          "MoreInfo": "- Missing join Predicate Event Class (https://go.microsoft.com/fwlink/?LinkId=798567)\n- Deprecation of \"Old Style\" JOIN Syntax: Only A Partial Thing (https://go.microsoft.com/fwlink/?LinkId=798568)\n- DOC : Please strive to use ANSI-style joins instead of deprecated syntax  (https://go.microsoft.com/fwlink/?LinkId=798569)\n- Missing join predicate icon should be red (https://go.microsoft.com/fwlink/?LinkId=798570)",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_GetCustomerOrders",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_GetCustomerOrders] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 42, Column 4.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_GetOrderItemDetails",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_GetOrderItemDetails] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 37, Column 4.\n Object [dbo].[usp_GetOrderItemDetails] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 71, Column 4.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_ProductInventory_Report",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_ProductInventory_Report] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 55, Column 4.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_Invoice_Edit",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_Invoice_Edit] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 29, Column 4.\n Object [dbo].[usp_Invoice_Edit] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 83, Column 4.\n Object [dbo].[usp_Invoice_Edit] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 112, Column 4.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel150",
+          "Category": "Compatibility",
+          "Severity": "Information",
+          "ChangeCategory": "BehaviorChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00333",
+          "Title": "Unqualified Join(s) detected",
+          "Impact": "Starting with database compatibility level 90 and higher, in rare occasions, the 'unqualified join' syntax can cause 'missing join predicate' warnings, leading to long running queries.",
+          "Recommendation": "An example of \"Unqualified join\" is\n \nselect * from table1, table2\nwhere table1.col1 = table2.col1\n\n Use  explicit JOIN syntax in all cases. SQL Server supports the below explicit joins:\n - LEFT OUTER JOIN or LEFT JOIN\n- RIGHT OUTER JOIN or RIGHT JOIN\n- FULL OUTER JOIN or FULL JOIN\n- INNER JOIN",
+          "MoreInfo": "- Missing join Predicate Event Class (https://go.microsoft.com/fwlink/?LinkId=798567)\n- Deprecation of \"Old Style\" JOIN Syntax: Only A Partial Thing (https://go.microsoft.com/fwlink/?LinkId=798568)\n- DOC : Please strive to use ANSI-style joins instead of deprecated syntax  (https://go.microsoft.com/fwlink/?LinkId=798569)\n- Missing join predicate icon should be red (https://go.microsoft.com/fwlink/?LinkId=798570)",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_GetCustomerOrders",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_GetCustomerOrders] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 42, Column 4.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_GetOrderItemDetails",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_GetOrderItemDetails] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 37, Column 4.\n Object [dbo].[usp_GetOrderItemDetails] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 71, Column 4.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_ProductInventory_Report",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_ProductInventory_Report] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 55, Column 4.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_Invoice_Edit",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_Invoice_Edit] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 29, Column 4.\n Object [dbo].[usp_Invoice_Edit] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 83, Column 4.\n Object [dbo].[usp_Invoice_Edit] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 112, Column 4.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel160",
+          "Category": "Compatibility",
+          "Severity": "Information",
+          "ChangeCategory": "BehaviorChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00333",
+          "Title": "Unqualified Join(s) detected",
+          "Impact": "Starting with database compatibility level 90 and higher, in rare occasions, the 'unqualified join' syntax can cause 'missing join predicate' warnings, leading to long running queries.",
+          "Recommendation": "An example of \"Unqualified join\" is\n \nselect * from table1, table2\nwhere table1.col1 = table2.col1\n\n Use  explicit JOIN syntax in all cases. SQL Server supports the below explicit joins:\n - LEFT OUTER JOIN or LEFT JOIN\n- RIGHT OUTER JOIN or RIGHT JOIN\n- FULL OUTER JOIN or FULL JOIN\n- INNER JOIN",
+          "MoreInfo": "- Missing join Predicate Event Class (https://go.microsoft.com/fwlink/?LinkId=798567)\n- Deprecation of \"Old Style\" JOIN Syntax: Only A Partial Thing (https://go.microsoft.com/fwlink/?LinkId=798568)\n- DOC : Please strive to use ANSI-style joins instead of deprecated syntax  (https://go.microsoft.com/fwlink/?LinkId=798569)\n- Missing join predicate icon should be red (https://go.microsoft.com/fwlink/?LinkId=798570)",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_GetCustomerOrders",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_GetCustomerOrders] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 42, Column 4.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_GetOrderItemDetails",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_GetOrderItemDetails] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 37, Column 4.\n Object [dbo].[usp_GetOrderItemDetails] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 71, Column 4.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_ProductInventory_Report",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_ProductInventory_Report] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 55, Column 4.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_Invoice_Edit",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_Invoice_Edit] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 29, Column 4.\n Object [dbo].[usp_Invoice_Edit] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 83, Column 4.\n Object [dbo].[usp_Invoice_Edit] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 112, Column 4.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel170",
+          "Category": "Compatibility",
+          "Severity": "Information",
+          "ChangeCategory": "BehaviorChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00333",
+          "Title": "Unqualified Join(s) detected",
+          "Impact": "Starting with database compatibility level 90 and higher, in rare occasions, the 'unqualified join' syntax can cause 'missing join predicate' warnings, leading to long running queries.",
+          "Recommendation": "An example of \"Unqualified join\" is\n \nselect * from table1, table2\nwhere table1.col1 = table2.col1\n\n Use  explicit JOIN syntax in all cases. SQL Server supports the below explicit joins:\n - LEFT OUTER JOIN or LEFT JOIN\n- RIGHT OUTER JOIN or RIGHT JOIN\n- FULL OUTER JOIN or FULL JOIN\n- INNER JOIN",
+          "MoreInfo": "- Missing join Predicate Event Class (https://go.microsoft.com/fwlink/?LinkId=798567)\n- Deprecation of \"Old Style\" JOIN Syntax: Only A Partial Thing (https://go.microsoft.com/fwlink/?LinkId=798568)\n- DOC : Please strive to use ANSI-style joins instead of deprecated syntax  (https://go.microsoft.com/fwlink/?LinkId=798569)\n- Missing join predicate icon should be red (https://go.microsoft.com/fwlink/?LinkId=798570)",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_GetCustomerOrders",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_GetCustomerOrders] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 42, Column 4.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_GetOrderItemDetails",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_GetOrderItemDetails] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 37, Column 4.\n Object [dbo].[usp_GetOrderItemDetails] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 71, Column 4.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_ProductInventory_Report",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_ProductInventory_Report] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 55, Column 4.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_Invoice_Edit",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_Invoice_Edit] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 29, Column 4.\n Object [dbo].[usp_Invoice_Edit] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 83, Column 4.\n Object [dbo].[usp_Invoice_Edit] uses the old style join syntax which can have poor performance at database compatibility level 90 and higher. For more details, please see: Line 112, Column 4.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel110",
+          "Category": "Compatibility",
+          "Severity": "Warning",
+          "ChangeCategory": "BehaviorChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00325",
+          "Title": "ORDER BY specifies integer ordinal",
+          "Impact": "This rule checks stored procedures, functions, views and triggers for use of ORDER BY clause specifying ordinal column numbers as sort columns. A sort column can be specified as a nonnegative integer representing the position of the name or alias in the select list, but this is not recommended. An integer cannot be specified when the order_by_expression appears in a ranking function. A sort column can include an expression, but when the database is in SQL 90 compatibility mode or higher, the expression cannot resolve to a constant.",
+          "Recommendation": "Specify the sort column as a name or column alias rather than hard coding the ordinal.",
+          "MoreInfo": "Bad habits to kick : ORDER BY ordinal (https://aka.ms/order-by-integer) \nDISCLAIMER: Third-party link provided as-is and Microsoft does not offer any guarantees or warranties regarding the content on the third party site.",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_GetTopSellingProducts",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_GetTopSellingProducts] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 48, Column 1.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_SalesDashboardData",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_SalesDashboardData] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 126, Column 4.\n Object [dbo].[usp_SalesDashboardData] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 139, Column 4.\n Object [dbo].[usp_SalesDashboardData] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 301, Column 5.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_FillCboCategory",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_FillCboCategory] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 19, Column 1.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel120",
+          "Category": "Compatibility",
+          "Severity": "Warning",
+          "ChangeCategory": "BehaviorChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00325",
+          "Title": "ORDER BY specifies integer ordinal",
+          "Impact": "This rule checks stored procedures, functions, views and triggers for use of ORDER BY clause specifying ordinal column numbers as sort columns. A sort column can be specified as a nonnegative integer representing the position of the name or alias in the select list, but this is not recommended. An integer cannot be specified when the order_by_expression appears in a ranking function. A sort column can include an expression, but when the database is in SQL 90 compatibility mode or higher, the expression cannot resolve to a constant.",
+          "Recommendation": "Specify the sort column as a name or column alias rather than hard coding the ordinal.",
+          "MoreInfo": "Bad habits to kick : ORDER BY ordinal (https://aka.ms/order-by-integer) \nDISCLAIMER: Third-party link provided as-is and Microsoft does not offer any guarantees or warranties regarding the content on the third party site.",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_GetTopSellingProducts",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_GetTopSellingProducts] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 48, Column 1.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_SalesDashboardData",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_SalesDashboardData] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 126, Column 4.\n Object [dbo].[usp_SalesDashboardData] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 139, Column 4.\n Object [dbo].[usp_SalesDashboardData] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 301, Column 5.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_FillCboCategory",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_FillCboCategory] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 19, Column 1.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel130",
+          "Category": "Compatibility",
+          "Severity": "Warning",
+          "ChangeCategory": "BehaviorChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00325",
+          "Title": "ORDER BY specifies integer ordinal",
+          "Impact": "This rule checks stored procedures, functions, views and triggers for use of ORDER BY clause specifying ordinal column numbers as sort columns. A sort column can be specified as a nonnegative integer representing the position of the name or alias in the select list, but this is not recommended. An integer cannot be specified when the order_by_expression appears in a ranking function. A sort column can include an expression, but when the database is in SQL 90 compatibility mode or higher, the expression cannot resolve to a constant.",
+          "Recommendation": "Specify the sort column as a name or column alias rather than hard coding the ordinal.",
+          "MoreInfo": "Bad habits to kick : ORDER BY ordinal (https://aka.ms/order-by-integer) \nDISCLAIMER: Third-party link provided as-is and Microsoft does not offer any guarantees or warranties regarding the content on the third party site.",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_GetTopSellingProducts",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_GetTopSellingProducts] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 48, Column 1.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_SalesDashboardData",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_SalesDashboardData] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 126, Column 4.\n Object [dbo].[usp_SalesDashboardData] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 139, Column 4.\n Object [dbo].[usp_SalesDashboardData] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 301, Column 5.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_FillCboCategory",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_FillCboCategory] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 19, Column 1.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel140",
+          "Category": "Compatibility",
+          "Severity": "Warning",
+          "ChangeCategory": "BehaviorChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00325",
+          "Title": "ORDER BY specifies integer ordinal",
+          "Impact": "This rule checks stored procedures, functions, views and triggers for use of ORDER BY clause specifying ordinal column numbers as sort columns. A sort column can be specified as a nonnegative integer representing the position of the name or alias in the select list, but this is not recommended. An integer cannot be specified when the order_by_expression appears in a ranking function. A sort column can include an expression, but when the database is in SQL 90 compatibility mode or higher, the expression cannot resolve to a constant.",
+          "Recommendation": "Specify the sort column as a name or column alias rather than hard coding the ordinal.",
+          "MoreInfo": "Bad habits to kick : ORDER BY ordinal (https://aka.ms/order-by-integer) \nDISCLAIMER: Third-party link provided as-is and Microsoft does not offer any guarantees or warranties regarding the content on the third party site.",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_GetTopSellingProducts",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_GetTopSellingProducts] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 48, Column 1.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_SalesDashboardData",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_SalesDashboardData] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 126, Column 4.\n Object [dbo].[usp_SalesDashboardData] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 139, Column 4.\n Object [dbo].[usp_SalesDashboardData] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 301, Column 5.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_FillCboCategory",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_FillCboCategory] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 19, Column 1.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel150",
+          "Category": "Compatibility",
+          "Severity": "Warning",
+          "ChangeCategory": "BehaviorChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00325",
+          "Title": "ORDER BY specifies integer ordinal",
+          "Impact": "This rule checks stored procedures, functions, views and triggers for use of ORDER BY clause specifying ordinal column numbers as sort columns. A sort column can be specified as a nonnegative integer representing the position of the name or alias in the select list, but this is not recommended. An integer cannot be specified when the order_by_expression appears in a ranking function. A sort column can include an expression, but when the database is in SQL 90 compatibility mode or higher, the expression cannot resolve to a constant.",
+          "Recommendation": "Specify the sort column as a name or column alias rather than hard coding the ordinal.",
+          "MoreInfo": "Bad habits to kick : ORDER BY ordinal (https://aka.ms/order-by-integer) \nDISCLAIMER: Third-party link provided as-is and Microsoft does not offer any guarantees or warranties regarding the content on the third party site.",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_GetTopSellingProducts",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_GetTopSellingProducts] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 48, Column 1.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_SalesDashboardData",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_SalesDashboardData] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 126, Column 4.\n Object [dbo].[usp_SalesDashboardData] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 139, Column 4.\n Object [dbo].[usp_SalesDashboardData] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 301, Column 5.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_FillCboCategory",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_FillCboCategory] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 19, Column 1.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel160",
+          "Category": "Compatibility",
+          "Severity": "Warning",
+          "ChangeCategory": "BehaviorChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00325",
+          "Title": "ORDER BY specifies integer ordinal",
+          "Impact": "This rule checks stored procedures, functions, views and triggers for use of ORDER BY clause specifying ordinal column numbers as sort columns. A sort column can be specified as a nonnegative integer representing the position of the name or alias in the select list, but this is not recommended. An integer cannot be specified when the order_by_expression appears in a ranking function. A sort column can include an expression, but when the database is in SQL 90 compatibility mode or higher, the expression cannot resolve to a constant.",
+          "Recommendation": "Specify the sort column as a name or column alias rather than hard coding the ordinal.",
+          "MoreInfo": "Bad habits to kick : ORDER BY ordinal (https://aka.ms/order-by-integer) \nDISCLAIMER: Third-party link provided as-is and Microsoft does not offer any guarantees or warranties regarding the content on the third party site.",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_GetTopSellingProducts",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_GetTopSellingProducts] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 48, Column 1.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_SalesDashboardData",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_SalesDashboardData] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 126, Column 4.\n Object [dbo].[usp_SalesDashboardData] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 139, Column 4.\n Object [dbo].[usp_SalesDashboardData] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 301, Column 5.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_FillCboCategory",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_FillCboCategory] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 19, Column 1.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel170",
+          "Category": "Compatibility",
+          "Severity": "Warning",
+          "ChangeCategory": "BehaviorChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00325",
+          "Title": "ORDER BY specifies integer ordinal",
+          "Impact": "This rule checks stored procedures, functions, views and triggers for use of ORDER BY clause specifying ordinal column numbers as sort columns. A sort column can be specified as a nonnegative integer representing the position of the name or alias in the select list, but this is not recommended. An integer cannot be specified when the order_by_expression appears in a ranking function. A sort column can include an expression, but when the database is in SQL 90 compatibility mode or higher, the expression cannot resolve to a constant.",
+          "Recommendation": "Specify the sort column as a name or column alias rather than hard coding the ordinal.",
+          "MoreInfo": "Bad habits to kick : ORDER BY ordinal (https://aka.ms/order-by-integer) \nDISCLAIMER: Third-party link provided as-is and Microsoft does not offer any guarantees or warranties regarding the content on the third party site.",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_GetTopSellingProducts",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_GetTopSellingProducts] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 48, Column 1.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_SalesDashboardData",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_SalesDashboardData] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 126, Column 4.\n Object [dbo].[usp_SalesDashboardData] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 139, Column 4.\n Object [dbo].[usp_SalesDashboardData] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 301, Column 5.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_FillCboCategory",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_FillCboCategory] uses ORDER BY clause specifiying ordinal column numbers as sort columns, this is not supported in database compatibility level 90 and higher. For more details, please see: Line 19, Column 1.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel110",
+          "Category": "Compatibility",
+          "Severity": "Information",
+          "ChangeCategory": "Information",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00507",
+          "Title": "Encrypted objects are not supported in DMA",
+          "Impact": "SQL Server stored procedures, views and functions are able to use the WITH ENCRYPTION option to disguise the contents of a particular procedure or function from discovery. Therefore, contents of these objects when encrypted cannot be read or scripted by DMA, resulting in inability of DMA to assess these server objects.",
+          "Recommendation": "Remove WITH ENCRYPTION option from object or migrate object manually.",
+          "MoreInfo": "",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_GetPendingPayments",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "The object [dbo].[usp_GetPendingPayments] uses the WITH ENCRYPTION option. Objects with this option are not supported in DMA. For more details, please see: Line 1, Column 1.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel120",
+          "Category": "Compatibility",
+          "Severity": "Information",
+          "ChangeCategory": "Information",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00507",
+          "Title": "Encrypted objects are not supported in DMA",
+          "Impact": "SQL Server stored procedures, views and functions are able to use the WITH ENCRYPTION option to disguise the contents of a particular procedure or function from discovery. Therefore, contents of these objects when encrypted cannot be read or scripted by DMA, resulting in inability of DMA to assess these server objects.",
+          "Recommendation": "Remove WITH ENCRYPTION option from object or migrate object manually.",
+          "MoreInfo": "",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_GetPendingPayments",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "The object [dbo].[usp_GetPendingPayments] uses the WITH ENCRYPTION option. Objects with this option are not supported in DMA. For more details, please see: Line 1, Column 1.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel130",
+          "Category": "Compatibility",
+          "Severity": "Information",
+          "ChangeCategory": "Information",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00507",
+          "Title": "Encrypted objects are not supported in DMA",
+          "Impact": "SQL Server stored procedures, views and functions are able to use the WITH ENCRYPTION option to disguise the contents of a particular procedure or function from discovery. Therefore, contents of these objects when encrypted cannot be read or scripted by DMA, resulting in inability of DMA to assess these server objects.",
+          "Recommendation": "Remove WITH ENCRYPTION option from object or migrate object manually.",
+          "MoreInfo": "",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_GetPendingPayments",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "The object [dbo].[usp_GetPendingPayments] uses the WITH ENCRYPTION option. Objects with this option are not supported in DMA. For more details, please see: Line 1, Column 1.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel140",
+          "Category": "Compatibility",
+          "Severity": "Information",
+          "ChangeCategory": "Information",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00507",
+          "Title": "Encrypted objects are not supported in DMA",
+          "Impact": "SQL Server stored procedures, views and functions are able to use the WITH ENCRYPTION option to disguise the contents of a particular procedure or function from discovery. Therefore, contents of these objects when encrypted cannot be read or scripted by DMA, resulting in inability of DMA to assess these server objects.",
+          "Recommendation": "Remove WITH ENCRYPTION option from object or migrate object manually.",
+          "MoreInfo": "",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_GetPendingPayments",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "The object [dbo].[usp_GetPendingPayments] uses the WITH ENCRYPTION option. Objects with this option are not supported in DMA. For more details, please see: Line 1, Column 1.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel150",
+          "Category": "Compatibility",
+          "Severity": "Information",
+          "ChangeCategory": "Information",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00507",
+          "Title": "Encrypted objects are not supported in DMA",
+          "Impact": "SQL Server stored procedures, views and functions are able to use the WITH ENCRYPTION option to disguise the contents of a particular procedure or function from discovery. Therefore, contents of these objects when encrypted cannot be read or scripted by DMA, resulting in inability of DMA to assess these server objects.",
+          "Recommendation": "Remove WITH ENCRYPTION option from object or migrate object manually.",
+          "MoreInfo": "",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_GetPendingPayments",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "The object [dbo].[usp_GetPendingPayments] uses the WITH ENCRYPTION option. Objects with this option are not supported in DMA. For more details, please see: Line 1, Column 1.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel160",
+          "Category": "Compatibility",
+          "Severity": "Information",
+          "ChangeCategory": "Information",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00507",
+          "Title": "Encrypted objects are not supported in DMA",
+          "Impact": "SQL Server stored procedures, views and functions are able to use the WITH ENCRYPTION option to disguise the contents of a particular procedure or function from discovery. Therefore, contents of these objects when encrypted cannot be read or scripted by DMA, resulting in inability of DMA to assess these server objects.",
+          "Recommendation": "Remove WITH ENCRYPTION option from object or migrate object manually.",
+          "MoreInfo": "",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_GetPendingPayments",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "The object [dbo].[usp_GetPendingPayments] uses the WITH ENCRYPTION option. Objects with this option are not supported in DMA. For more details, please see: Line 1, Column 1.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel170",
+          "Category": "Compatibility",
+          "Severity": "Information",
+          "ChangeCategory": "Information",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00507",
+          "Title": "Encrypted objects are not supported in DMA",
+          "Impact": "SQL Server stored procedures, views and functions are able to use the WITH ENCRYPTION option to disguise the contents of a particular procedure or function from discovery. Therefore, contents of these objects when encrypted cannot be read or scripted by DMA, resulting in inability of DMA to assess these server objects.",
+          "Recommendation": "Remove WITH ENCRYPTION option from object or migrate object manually.",
+          "MoreInfo": "",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_GetPendingPayments",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "The object [dbo].[usp_GetPendingPayments] uses the WITH ENCRYPTION option. Objects with this option are not supported in DMA. For more details, please see: Line 1, Column 1.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel110",
+          "Category": "Compatibility",
+          "Severity": "Information",
+          "ChangeCategory": "BehaviorChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00335",
+          "Title": "FOR XML AUTO queries return derived table references in 90 or later compatibility modes",
+          "Impact": "When the database compatibility level is set to 90 or later, FOR XML queries that execute in AUTO mode return references to derived table aliases. When the compatibility level is set to 80, FOR XML AUTO queries return references to the base tables that define a derived table. For example, the following query, which includes a derived table, produces different results under compatibility levels 80, 90, or later:\n\n \nSELECT * FROM\n(SELECT a.id AS a, b.id AS b\nFROM Test a JOIN Test b ON a.id=b.id) AS DerivedTest FOR XML AUTO;\n\n \nUnder compatibility level 80, the query returns the following results. The results reference the base table aliases a and b of the derived table instead of the derived table alias.\n\n \n<a a=\"1\"><b b=\"1\"/></a><a a=\"2\"><b b=\"2\"/></a>\n\n \nUnder compatibility level 90 or later, the query returns references to the derived table alias DerivedTest instead of to the derived table's base tables.\n\n \n<DerivedTest a=\"1\" b=\"1\"/><DerivedTest a=\"2\" b=\"2\"/>",
+          "Recommendation": "Modify your application as required to account for the changes in results of FOR XML AUTO queries that include derived tables and that run under compatibility level 90 or later.",
+          "MoreInfo": "",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_Order_Insert",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_Order_Insert] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 94, Column 20.\n Object [dbo].[usp_Order_Insert] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 98, Column 25.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_ShipmentBulkSave",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_ShipmentBulkSave] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 210, Column 20.\n Object [dbo].[usp_ShipmentBulkSave] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 247, Column 21.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel120",
+          "Category": "Compatibility",
+          "Severity": "Information",
+          "ChangeCategory": "BehaviorChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00335",
+          "Title": "FOR XML AUTO queries return derived table references in 90 or later compatibility modes",
+          "Impact": "When the database compatibility level is set to 90 or later, FOR XML queries that execute in AUTO mode return references to derived table aliases. When the compatibility level is set to 80, FOR XML AUTO queries return references to the base tables that define a derived table. For example, the following query, which includes a derived table, produces different results under compatibility levels 80, 90, or later:\n\n \nSELECT * FROM\n(SELECT a.id AS a, b.id AS b\nFROM Test a JOIN Test b ON a.id=b.id) AS DerivedTest FOR XML AUTO;\n\n \nUnder compatibility level 80, the query returns the following results. The results reference the base table aliases a and b of the derived table instead of the derived table alias.\n\n \n<a a=\"1\"><b b=\"1\"/></a><a a=\"2\"><b b=\"2\"/></a>\n\n \nUnder compatibility level 90 or later, the query returns references to the derived table alias DerivedTest instead of to the derived table's base tables.\n\n \n<DerivedTest a=\"1\" b=\"1\"/><DerivedTest a=\"2\" b=\"2\"/>",
+          "Recommendation": "Modify your application as required to account for the changes in results of FOR XML AUTO queries that include derived tables and that run under compatibility level 90 or later.",
+          "MoreInfo": "",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_Order_Insert",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_Order_Insert] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 94, Column 20.\n Object [dbo].[usp_Order_Insert] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 98, Column 25.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_ShipmentBulkSave",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_ShipmentBulkSave] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 210, Column 20.\n Object [dbo].[usp_ShipmentBulkSave] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 247, Column 21.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel130",
+          "Category": "Compatibility",
+          "Severity": "Information",
+          "ChangeCategory": "BehaviorChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00335",
+          "Title": "FOR XML AUTO queries return derived table references in 90 or later compatibility modes",
+          "Impact": "When the database compatibility level is set to 90 or later, FOR XML queries that execute in AUTO mode return references to derived table aliases. When the compatibility level is set to 80, FOR XML AUTO queries return references to the base tables that define a derived table. For example, the following query, which includes a derived table, produces different results under compatibility levels 80, 90, or later:\n\n \nSELECT * FROM\n(SELECT a.id AS a, b.id AS b\nFROM Test a JOIN Test b ON a.id=b.id) AS DerivedTest FOR XML AUTO;\n\n \nUnder compatibility level 80, the query returns the following results. The results reference the base table aliases a and b of the derived table instead of the derived table alias.\n\n \n<a a=\"1\"><b b=\"1\"/></a><a a=\"2\"><b b=\"2\"/></a>\n\n \nUnder compatibility level 90 or later, the query returns references to the derived table alias DerivedTest instead of to the derived table's base tables.\n\n \n<DerivedTest a=\"1\" b=\"1\"/><DerivedTest a=\"2\" b=\"2\"/>",
+          "Recommendation": "Modify your application as required to account for the changes in results of FOR XML AUTO queries that include derived tables and that run under compatibility level 90 or later.",
+          "MoreInfo": "",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_Order_Insert",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_Order_Insert] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 94, Column 20.\n Object [dbo].[usp_Order_Insert] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 98, Column 25.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_ShipmentBulkSave",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_ShipmentBulkSave] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 210, Column 20.\n Object [dbo].[usp_ShipmentBulkSave] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 247, Column 21.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel140",
+          "Category": "Compatibility",
+          "Severity": "Information",
+          "ChangeCategory": "BehaviorChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00335",
+          "Title": "FOR XML AUTO queries return derived table references in 90 or later compatibility modes",
+          "Impact": "When the database compatibility level is set to 90 or later, FOR XML queries that execute in AUTO mode return references to derived table aliases. When the compatibility level is set to 80, FOR XML AUTO queries return references to the base tables that define a derived table. For example, the following query, which includes a derived table, produces different results under compatibility levels 80, 90, or later:\n\n \nSELECT * FROM\n(SELECT a.id AS a, b.id AS b\nFROM Test a JOIN Test b ON a.id=b.id) AS DerivedTest FOR XML AUTO;\n\n \nUnder compatibility level 80, the query returns the following results. The results reference the base table aliases a and b of the derived table instead of the derived table alias.\n\n \n<a a=\"1\"><b b=\"1\"/></a><a a=\"2\"><b b=\"2\"/></a>\n\n \nUnder compatibility level 90 or later, the query returns references to the derived table alias DerivedTest instead of to the derived table's base tables.\n\n \n<DerivedTest a=\"1\" b=\"1\"/><DerivedTest a=\"2\" b=\"2\"/>",
+          "Recommendation": "Modify your application as required to account for the changes in results of FOR XML AUTO queries that include derived tables and that run under compatibility level 90 or later.",
+          "MoreInfo": "",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_Order_Insert",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_Order_Insert] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 94, Column 20.\n Object [dbo].[usp_Order_Insert] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 98, Column 25.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_ShipmentBulkSave",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_ShipmentBulkSave] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 210, Column 20.\n Object [dbo].[usp_ShipmentBulkSave] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 247, Column 21.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel150",
+          "Category": "Compatibility",
+          "Severity": "Information",
+          "ChangeCategory": "BehaviorChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00335",
+          "Title": "FOR XML AUTO queries return derived table references in 90 or later compatibility modes",
+          "Impact": "When the database compatibility level is set to 90 or later, FOR XML queries that execute in AUTO mode return references to derived table aliases. When the compatibility level is set to 80, FOR XML AUTO queries return references to the base tables that define a derived table. For example, the following query, which includes a derived table, produces different results under compatibility levels 80, 90, or later:\n\n \nSELECT * FROM\n(SELECT a.id AS a, b.id AS b\nFROM Test a JOIN Test b ON a.id=b.id) AS DerivedTest FOR XML AUTO;\n\n \nUnder compatibility level 80, the query returns the following results. The results reference the base table aliases a and b of the derived table instead of the derived table alias.\n\n \n<a a=\"1\"><b b=\"1\"/></a><a a=\"2\"><b b=\"2\"/></a>\n\n \nUnder compatibility level 90 or later, the query returns references to the derived table alias DerivedTest instead of to the derived table's base tables.\n\n \n<DerivedTest a=\"1\" b=\"1\"/><DerivedTest a=\"2\" b=\"2\"/>",
+          "Recommendation": "Modify your application as required to account for the changes in results of FOR XML AUTO queries that include derived tables and that run under compatibility level 90 or later.",
+          "MoreInfo": "",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_Order_Insert",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_Order_Insert] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 94, Column 20.\n Object [dbo].[usp_Order_Insert] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 98, Column 25.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_ShipmentBulkSave",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_ShipmentBulkSave] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 210, Column 20.\n Object [dbo].[usp_ShipmentBulkSave] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 247, Column 21.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel160",
+          "Category": "Compatibility",
+          "Severity": "Information",
+          "ChangeCategory": "BehaviorChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00335",
+          "Title": "FOR XML AUTO queries return derived table references in 90 or later compatibility modes",
+          "Impact": "When the database compatibility level is set to 90 or later, FOR XML queries that execute in AUTO mode return references to derived table aliases. When the compatibility level is set to 80, FOR XML AUTO queries return references to the base tables that define a derived table. For example, the following query, which includes a derived table, produces different results under compatibility levels 80, 90, or later:\n\n \nSELECT * FROM\n(SELECT a.id AS a, b.id AS b\nFROM Test a JOIN Test b ON a.id=b.id) AS DerivedTest FOR XML AUTO;\n\n \nUnder compatibility level 80, the query returns the following results. The results reference the base table aliases a and b of the derived table instead of the derived table alias.\n\n \n<a a=\"1\"><b b=\"1\"/></a><a a=\"2\"><b b=\"2\"/></a>\n\n \nUnder compatibility level 90 or later, the query returns references to the derived table alias DerivedTest instead of to the derived table's base tables.\n\n \n<DerivedTest a=\"1\" b=\"1\"/><DerivedTest a=\"2\" b=\"2\"/>",
+          "Recommendation": "Modify your application as required to account for the changes in results of FOR XML AUTO queries that include derived tables and that run under compatibility level 90 or later.",
+          "MoreInfo": "",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_Order_Insert",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_Order_Insert] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 94, Column 20.\n Object [dbo].[usp_Order_Insert] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 98, Column 25.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_ShipmentBulkSave",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_ShipmentBulkSave] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 210, Column 20.\n Object [dbo].[usp_ShipmentBulkSave] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 247, Column 21.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel170",
+          "Category": "Compatibility",
+          "Severity": "Information",
+          "ChangeCategory": "BehaviorChange",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00335",
+          "Title": "FOR XML AUTO queries return derived table references in 90 or later compatibility modes",
+          "Impact": "When the database compatibility level is set to 90 or later, FOR XML queries that execute in AUTO mode return references to derived table aliases. When the compatibility level is set to 80, FOR XML AUTO queries return references to the base tables that define a derived table. For example, the following query, which includes a derived table, produces different results under compatibility levels 80, 90, or later:\n\n \nSELECT * FROM\n(SELECT a.id AS a, b.id AS b\nFROM Test a JOIN Test b ON a.id=b.id) AS DerivedTest FOR XML AUTO;\n\n \nUnder compatibility level 80, the query returns the following results. The results reference the base table aliases a and b of the derived table instead of the derived table alias.\n\n \n<a a=\"1\"><b b=\"1\"/></a><a a=\"2\"><b b=\"2\"/></a>\n\n \nUnder compatibility level 90 or later, the query returns references to the derived table alias DerivedTest instead of to the derived table's base tables.\n\n \n<DerivedTest a=\"1\" b=\"1\"/><DerivedTest a=\"2\" b=\"2\"/>",
+          "Recommendation": "Modify your application as required to account for the changes in results of FOR XML AUTO queries that include derived tables and that run under compatibility level 90 or later.",
+          "MoreInfo": "",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.usp_Order_Insert",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_Order_Insert] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 94, Column 20.\n Object [dbo].[usp_Order_Insert] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 98, Column 25.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.usp_ShipmentBulkSave",
+              "ObjectType": "Procedure",
+              "ImpactDetail": "Object [dbo].[usp_ShipmentBulkSave] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 210, Column 20.\n Object [dbo].[usp_ShipmentBulkSave] runs a FOR XML query that executes in AUTO mode, which returns references to derived table aliases. Under compatibility level 90 or later, the query returns references to the derived table alias instead of to the derived table's base tables, so you should modify your application as required to account for the changes. For more details, please see: Line 247, Column 21.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel110",
+          "Category": "Compatibility",
+          "Severity": "Warning",
+          "ChangeCategory": "Information",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00306",
+          "Title": "Deprecated data types TEXT, IMAGE or NTEXT",
+          "Impact": "These data types are checked as deprecated. In some cases, using TEXT, IMAGE or NTEXT might harm performance.",
+          "Recommendation": "Deprecated data types are marked to be discontinued on next versions of SQL Server, should use new data types such as: (varchar(max), nvarchar(max), varbinary(max) and etc.)",
+          "MoreInfo": "ntext, text, and image (Transact-SQL) (https://go.microsoft.com/fwlink/?LinkId=798558)",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.Products.ProductDescription",
+              "ObjectType": "Column",
+              "ImpactDetail": "Object dbo.Products.ProductDescription uses deprecated data type TEXT, IMAGE or NTEXT which will be discontinued for future versions of SQL Server. For more details, please see: Line 7, Column 5.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.Customers.Notes",
+              "ObjectType": "Column",
+              "ImpactDetail": "Object dbo.Customers.Notes uses deprecated data type TEXT, IMAGE or NTEXT which will be discontinued for future versions of SQL Server. For more details, please see: Line 11, Column 5.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.ProductImages.ImageData",
+              "ObjectType": "Column",
+              "ImpactDetail": "Object dbo.ProductImages.ImageData uses deprecated data type TEXT, IMAGE or NTEXT which will be discontinued for future versions of SQL Server. For more details, please see: Line 3, Column 5.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel120",
+          "Category": "Compatibility",
+          "Severity": "Warning",
+          "ChangeCategory": "Information",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00306",
+          "Title": "Deprecated data types TEXT, IMAGE or NTEXT",
+          "Impact": "These data types are checked as deprecated. In some cases, using TEXT, IMAGE or NTEXT might harm performance.",
+          "Recommendation": "Deprecated data types are marked to be discontinued on next versions of SQL Server, should use new data types such as: (varchar(max), nvarchar(max), varbinary(max) and etc.)",
+          "MoreInfo": "ntext, text, and image (Transact-SQL) (https://go.microsoft.com/fwlink/?LinkId=798558)",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.Products.ProductDescription",
+              "ObjectType": "Column",
+              "ImpactDetail": "Object dbo.Products.ProductDescription uses deprecated data type TEXT, IMAGE or NTEXT which will be discontinued for future versions of SQL Server. For more details, please see: Line 7, Column 5.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.Customers.Notes",
+              "ObjectType": "Column",
+              "ImpactDetail": "Object dbo.Customers.Notes uses deprecated data type TEXT, IMAGE or NTEXT which will be discontinued for future versions of SQL Server. For more details, please see: Line 11, Column 5.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.ProductImages.ImageData",
+              "ObjectType": "Column",
+              "ImpactDetail": "Object dbo.ProductImages.ImageData uses deprecated data type TEXT, IMAGE or NTEXT which will be discontinued for future versions of SQL Server. For more details, please see: Line 3, Column 5.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel130",
+          "Category": "Compatibility",
+          "Severity": "Warning",
+          "ChangeCategory": "Information",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00306",
+          "Title": "Deprecated data types TEXT, IMAGE or NTEXT",
+          "Impact": "These data types are checked as deprecated. In some cases, using TEXT, IMAGE or NTEXT might harm performance.",
+          "Recommendation": "Deprecated data types are marked to be discontinued on next versions of SQL Server, should use new data types such as: (varchar(max), nvarchar(max), varbinary(max) and etc.)",
+          "MoreInfo": "ntext, text, and image (Transact-SQL) (https://go.microsoft.com/fwlink/?LinkId=798558)",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.Products.ProductDescription",
+              "ObjectType": "Column",
+              "ImpactDetail": "Object dbo.Products.ProductDescription uses deprecated data type TEXT, IMAGE or NTEXT which will be discontinued for future versions of SQL Server. For more details, please see: Line 7, Column 5.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.Customers.Notes",
+              "ObjectType": "Column",
+              "ImpactDetail": "Object dbo.Customers.Notes uses deprecated data type TEXT, IMAGE or NTEXT which will be discontinued for future versions of SQL Server. For more details, please see: Line 11, Column 5.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.ProductImages.ImageData",
+              "ObjectType": "Column",
+              "ImpactDetail": "Object dbo.ProductImages.ImageData uses deprecated data type TEXT, IMAGE or NTEXT which will be discontinued for future versions of SQL Server. For more details, please see: Line 3, Column 5.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel140",
+          "Category": "Compatibility",
+          "Severity": "Warning",
+          "ChangeCategory": "Information",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00306",
+          "Title": "Deprecated data types TEXT, IMAGE or NTEXT",
+          "Impact": "These data types are checked as deprecated. In some cases, using TEXT, IMAGE or NTEXT might harm performance.",
+          "Recommendation": "Deprecated data types are marked to be discontinued on next versions of SQL Server, should use new data types such as: (varchar(max), nvarchar(max), varbinary(max) and etc.)",
+          "MoreInfo": "ntext, text, and image (Transact-SQL) (https://go.microsoft.com/fwlink/?LinkId=798558)",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.Products.ProductDescription",
+              "ObjectType": "Column",
+              "ImpactDetail": "Object dbo.Products.ProductDescription uses deprecated data type TEXT, IMAGE or NTEXT which will be discontinued for future versions of SQL Server. For more details, please see: Line 7, Column 5.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.Customers.Notes",
+              "ObjectType": "Column",
+              "ImpactDetail": "Object dbo.Customers.Notes uses deprecated data type TEXT, IMAGE or NTEXT which will be discontinued for future versions of SQL Server. For more details, please see: Line 11, Column 5.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.ProductImages.ImageData",
+              "ObjectType": "Column",
+              "ImpactDetail": "Object dbo.ProductImages.ImageData uses deprecated data type TEXT, IMAGE or NTEXT which will be discontinued for future versions of SQL Server. For more details, please see: Line 3, Column 5.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel150",
+          "Category": "Compatibility",
+          "Severity": "Warning",
+          "ChangeCategory": "Information",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00306",
+          "Title": "Deprecated data types TEXT, IMAGE or NTEXT",
+          "Impact": "These data types are checked as deprecated. In some cases, using TEXT, IMAGE or NTEXT might harm performance.",
+          "Recommendation": "Deprecated data types are marked to be discontinued on next versions of SQL Server, should use new data types such as: (varchar(max), nvarchar(max), varbinary(max) and etc.)",
+          "MoreInfo": "ntext, text, and image (Transact-SQL) (https://go.microsoft.com/fwlink/?LinkId=798558)",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.Products.ProductDescription",
+              "ObjectType": "Column",
+              "ImpactDetail": "Object dbo.Products.ProductDescription uses deprecated data type TEXT, IMAGE or NTEXT which will be discontinued for future versions of SQL Server. For more details, please see: Line 7, Column 5.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.Customers.Notes",
+              "ObjectType": "Column",
+              "ImpactDetail": "Object dbo.Customers.Notes uses deprecated data type TEXT, IMAGE or NTEXT which will be discontinued for future versions of SQL Server. For more details, please see: Line 11, Column 5.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.ProductImages.ImageData",
+              "ObjectType": "Column",
+              "ImpactDetail": "Object dbo.ProductImages.ImageData uses deprecated data type TEXT, IMAGE or NTEXT which will be discontinued for future versions of SQL Server. For more details, please see: Line 3, Column 5.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel160",
+          "Category": "Compatibility",
+          "Severity": "Warning",
+          "ChangeCategory": "Information",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00306",
+          "Title": "Deprecated data types TEXT, IMAGE or NTEXT",
+          "Impact": "These data types are checked as deprecated. In some cases, using TEXT, IMAGE or NTEXT might harm performance.",
+          "Recommendation": "Deprecated data types are marked to be discontinued on next versions of SQL Server, should use new data types such as: (varchar(max), nvarchar(max), varbinary(max) and etc.)",
+          "MoreInfo": "ntext, text, and image (Transact-SQL) (https://go.microsoft.com/fwlink/?LinkId=798558)",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.Products.ProductDescription",
+              "ObjectType": "Column",
+              "ImpactDetail": "Object dbo.Products.ProductDescription uses deprecated data type TEXT, IMAGE or NTEXT which will be discontinued for future versions of SQL Server. For more details, please see: Line 7, Column 5.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.Customers.Notes",
+              "ObjectType": "Column",
+              "ImpactDetail": "Object dbo.Customers.Notes uses deprecated data type TEXT, IMAGE or NTEXT which will be discontinued for future versions of SQL Server. For more details, please see: Line 11, Column 5.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.ProductImages.ImageData",
+              "ObjectType": "Column",
+              "ImpactDetail": "Object dbo.ProductImages.ImageData uses deprecated data type TEXT, IMAGE or NTEXT which will be discontinued for future versions of SQL Server. For more details, please see: Line 3, Column 5.",
+              "SuggestedFixes": []
+            }
+          ]
+        },
+        {
+          "CompatibilityLevel": "CompatLevel170",
+          "Category": "Compatibility",
+          "Severity": "Warning",
+          "ChangeCategory": "Information",
+          "RuleId": "Microsoft.Rules.Data.Upgrade.UR00306",
+          "Title": "Deprecated data types TEXT, IMAGE or NTEXT",
+          "Impact": "These data types are checked as deprecated. In some cases, using TEXT, IMAGE or NTEXT might harm performance.",
+          "Recommendation": "Deprecated data types are marked to be discontinued on next versions of SQL Server, should use new data types such as: (varchar(max), nvarchar(max), varbinary(max) and etc.)",
+          "MoreInfo": "ntext, text, and image (Transact-SQL) (https://go.microsoft.com/fwlink/?LinkId=798558)",
+          "ImpactedObjects": [
+            {
+              "Name": "dbo.Products.ProductDescription",
+              "ObjectType": "Column",
+              "ImpactDetail": "Object dbo.Products.ProductDescription uses deprecated data type TEXT, IMAGE or NTEXT which will be discontinued for future versions of SQL Server. For more details, please see: Line 7, Column 5.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.Customers.Notes",
+              "ObjectType": "Column",
+              "ImpactDetail": "Object dbo.Customers.Notes uses deprecated data type TEXT, IMAGE or NTEXT which will be discontinued for future versions of SQL Server. For more details, please see: Line 11, Column 5.",
+              "SuggestedFixes": []
+            },
+            {
+              "Name": "dbo.ProductImages.ImageData",
+              "ObjectType": "Column",
+              "ImpactDetail": "Object dbo.ProductImages.ImageData uses deprecated data type TEXT, IMAGE or NTEXT which will be discontinued for future versions of SQL Server. For more details, please see: Line 3, Column 5.",
+              "SuggestedFixes": []
+            }
+          ]
+        }
+      ],
+      "Name": "MigrationDemoDB",
+      "SizeMB": 2048.0,
+      "ServerVersion": "13.0.6404.1",
+      "ServerEdition": "Standard Edition (64-bit)",
+      "CompatibilityLevel": "CompatLevel110",
+      "ServerName": "SQLDB1"
+    }
+  ],
+  "ServerInstances": [
+    {
+      "ServerName": "SQLDB1",
+      "Version": "13.0.6404.1",
+      "Status": "Completed",
+      "AssessmentRecommendations": [
+        {
+          "Category": "FeatureParity",
+          "Severity": "Warning",
+          "FeatureParityCategory": "PartiallySupportedFeature",
+          "RuleId": "984103ed-5336-4d37-89ba-5c15b9fcaf90",
+          "Title": "SQL Server Reporting Services (SSRS)",
+          "Impact": "SSRS superseded by PBIRS",
+          "Recommendation": "All on-premises reporting services are consolidated under Power BI Report Server (PBIRS) starting with SQL Server 2025(170). \nPBIRS is a superset of SSRS, offering all SSRS capabilities plus support for interactive Power BI reports, and more. No new versions of SQL Server Reporting Services (SSRS) will be released. \nPBIRS is the default on-premises reporting solution for SQL Server.",
+          "MoreInfo": "Refer to the Reporting Services consolidation FAQ (https://aka.ms/SSRS-consolidation-FAQ)",
+          "ImpactedObjects": []
+        },
+        {
+          "Category": "FeatureParity",
+          "Severity": "Error",
+          "FeatureParityCategory": "UnsupportedFeature",
+          "RuleId": "dfbd7782-692a-4412-8785-605c7871c7ee",
+          "Title": "Data Quality Services (DQS)",
+          "Impact": "DQS is no longer supported",
+          "Recommendation": "Data Quality Services (DQS) is removed in SQL Server 2025 (170).",
+          "MoreInfo": "Refer to the <a href=\"https://aka.ms/SQL2025-discontinued-services-features\"\">discontinued services and deprecated features</a>",
+          "ImpactedObjects": []
+        }
+      ]
+    }
+  ],
+  "SourcePlatform": "SqlOnPrem",
+  "Status": "Completed",
+  "StartedOn": "2026-09-24T10:31:59.436235+00:00",
+  "EndedOn": "2026-09-24T10:37:53.6421846+00:00",
+  "EvaluateFeatureRecommendations": false,
+  "EvaluateCompatibilityIssues": true,
+  "EvaluateFeatureParity": true,
+  "TargetPlatform": "SqlServerWindows2025",
+  "DmaVersion": {}
+}
